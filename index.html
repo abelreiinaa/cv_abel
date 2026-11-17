@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Currículum web de Abel Miñón Reina, estudiante de Desarrollo de Aplicaciones Web."
+    >
+    <title>Abel Miñón Reina | Currículum web</title>
+    <link rel="icon" href="public/favicon.ico" sizes="48x48">
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Abel Miñón Reina | Currículum web">
+    <meta property="og:description" content="Estudiante de Desarrollo de Aplicaciones Web. Formación, experiencia, tecnologías y proyectos.">
+    <meta property="og:locale" content="es_ES">
+    <meta name="twitter:card" content="summary">
+    <link rel="apple-touch-icon" href="public/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="utils.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="app">
+      <header class="header-block">
+        <div class="header-block__item">
+          <img
+            src="src/images/foto_cv_circular.png"
+            alt="Fotografía de Abel Miñón Reina"
+            width="150"
+            height="150"
+          >
+          <h1 id="profile-name">Abel Miñón Reina</h1>
+          <p id="profile-profession">Estudiante de Desarrollo de Aplicaciones Web</p>
+        </div>
+
+        <address id="personal-data" class="personal-data-block">
+          <div><span aria-hidden="true">☎</span>640 618 138</div>
+          <div>
+            <span aria-hidden="true">✉</span>
+            <a href="mailto:aminonreina@gmail.com">aminonreina@gmail.com</a>
+          </div>
+        </address>
+      </header>
+
+      <section class="biography-block" aria-labelledby="biography-title">
+        <h2 id="biography-title">Sobre mí</h2>
+        <p id="biography">
+          Estudiante de Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web.
+        </p>
+      </section>
+
+      <nav class="block-navbar" aria-label="Secciones del currículum">
+        <div class="tabs" role="tablist">
+          <button id="tab-education" class="button-navbar is-active" type="button" role="tab" aria-selected="true" aria-controls="content" data-section="education">Formación</button>
+          <button id="tab-experience" class="button-navbar" type="button" role="tab" aria-selected="false" aria-controls="content" data-section="experience">Experiencia</button>
+          <button id="tab-technologies" class="button-navbar" type="button" role="tab" aria-selected="false" aria-controls="content" data-section="technologies">Tecnologías</button>
+        </div>
+        <a class="button-navbar" href="https://abelminonreina.weebly.com/" target="_blank" rel="noopener noreferrer">Proyectos</a>
+        <a class="button-navbar" href="public/cv-abel-minon-reina.pdf" download="CV_Abel_Minon_Reina_2DAW.pdf">Descargar CV (PDF)</a>
+      </nav>
+
+      <section id="content" role="tabpanel" tabindex="0" aria-live="polite" aria-labelledby="tab-education"></section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "name": "Abel Miñón Reina",
+    "profession": "Estudiante de Desarrollo de Aplicaciones Web",
+    "phone": "640 618 138",
+    "email": "aminonreina@gmail.com",
+    "city": "Dos Hermanas (Sevilla)",
+    "birthDate": "22/08/2003",
+    "linkedin": "https://www.linkedin.com/in/abel-minon-reina",
+    "github": "https://github.com/abelreiinaa",
+    "aboutMe": "Estudiante de Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web. Soy por naturaleza resolutivo, proactivo y perfeccionista. Me apasiona 'toquetear' sistemas y no paro hasta que el código funciona correctamente. Veo la programación como un acertijo lógico. Estoy construyendo una base técnica sólida en desarrollo con un objetivo claro: especializarme en Ciberseguridad, entendiendo cómo se crean las aplicaciones para saber cómo defenderlas."
+  },
+  "education": [
+    {
+      "name": "Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
+      "date": "2025 - actualidad",
+      "where": "Instituto Pablo de la Torre"
+    },
+    {
+      "name": "Certificado de nivel básico en Prevención de Riesgos Laborales",
+      "date": "2026",
+      "where": "Instituto Pablo de la Torre"
+    },
+    {
+      "name": "Grado Medio en Electromecánica de Vehículos Automóviles",
+      "date": "2020 - 2025",
+      "where": "IES Virgen de Consolación"
+    },
+    {
+      "name": "Educación Secundaria Obligatoria (ESO)",
+      "date": "2015 - 2020",
+      "where": "IES Jesús del Gran Poder"
+    }
+  ],
+  "technologies": {
+    "Frontend": [
+      "CSS y SCSS",
+      "HTML",
+      "JavaScript",
+      "React",
+      "Angular"
+    ],
+    "Backend": [
+      "JavaScript",
+      "Node.js",
+      "PHP"
+    ],
+    "Bases de Datos": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "Herramientas": [
+      "GitHub",
+      "GitLab",
+      "Visual Studio",
+      "Spring Tool Suite",
+      "Postman",
+      "VirtualBox",
+      "Apache",
+      "Netlify",
+      "GitHub Pages"
+    ]
+  },
+  "experience": [
+    {
+      "name": "Prácticas formativas en Desarrollo de Aplicaciones Web",
+      "date": "Abril 2026",
+      "where": "José Pablo de la Torre Rodríguez",
+      "description": "Prácticas formativas no remuneradas del ciclo de Desarrollo de Aplicaciones Web. Aplicación de mis conocimientos de programación, bases de datos y desarrollo web en un entorno de trabajo real, resolviendo tareas con autonomía y trabajando por objetivos."
+    },
+    {
+      "name": "Prácticas formativas en Electromecánica de Vehículos Automóviles",
+      "date": "Abril 2025 - Junio 2025",
+      "where": "IES Virgen de Consolación",
+      "description": "Diagnóstico de averías y mantenimiento de vehículos. Esta etapa me enseñó a tener paciencia infinita para encontrar el origen de un fallo, trabajar en equipo y mantener la calma cuando algo no arranca a la primera (habilidades que ahora aplico cada día programando)."
+    },
+    {
+      "name": "Operario de producción",
+      "date": "Diciembre 2024 - Enero 2025",
+      "where": "Telemax Control S.L.U.",
+      "description": "Contrato eventual a jornada completa por circunstancias de la producción. Trabajo en cadena y en equipo, siguiendo procedimientos y cumpliendo objetivos de producción. Una experiencia que me aportó rigor, constancia y atención al detalle, igual de necesarios para revisar y depurar código."
+    },
+    {
+      "name": "Repartidor a domicilio en moto",
+      "date": "Septiembre 2022 - Noviembre 2022",
+      "where": "Burger King Spain S.L.U.",
+      "description": "Reparto de pedidos a domicilio en moto, con puntualidad, trato directo con el cliente y gestión autónoma de rutas y tiempos. Resolución de incidencias en el momento y trabajo bajo presión. Esta experiencia me aportó responsabilidad, organización y orientación al usuario final, cualidades que aplico en el desarrollo web."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pixel Fishing",
+      "description": "Juego de pesca en pixel art con Canvas, Web Audio y Firebase. Sin frameworks.",
+      "url": "https://abelreiinaa.github.io/the-fishing-game/",
+      "repo": "https://github.com/abelreiinaa/the-fishing-game",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas",
+        "Firebase"
+      ],
+      "preview": true
+    },
+    {
+      "name": "Lenguajes de Marcas",
+      "description": "Trabajo del módulo de Lenguajes de Marcas, desplegado en Netlify.",
+      "url": "https://superb-smakager-23e048.netlify.app/",
+      "tags": [
+        "HTML",
+        "Netlify"
+      ]
+    },
+    {
+      "name": "Portfolio de trabajos (Weebly)",
+      "description": "Trabajos por módulos: base de datos, programación y lenguajes de marcas.",
+      "url": "https://abelminonreina.weebly.com/"
+    }
+  ]
+}
